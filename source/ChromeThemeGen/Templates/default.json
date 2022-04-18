@@ -1,0 +1,37 @@
+{
+  "name": "{THEME_NAME}",
+  "version": "{VERSION}",
+  "description": "Theme for {THEME_NAME}",
+  "manifest_version": 2,
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_tab_background": "images/theme_tab_background.png",
+      "theme_ntp_background": "images/theme_ntp_background.png",
+      "theme_frame_overlay": "images/theme_frame_overlay.png",
+      "theme_ntp_attribution": "images/theme_ntp_attribution.png"
+    },
+    "colors": {
+      "frame": [ 0, 0, 0 ],
+      "toolbar": [ "{TOOLBAR}" ],
+      "tab_text": [ "{TAB_TEXT}" ],
+      "tab_background_text": [ "{TAB_BACKGROUND_TEXT}" ],
+      "tab_background_text_inactive": [ "{TAB_BACKGROUND_TEXT}" ],
+      "toolbar_button_icon": [ "{TAB_BACKGROUND_TEXT}" ],
+      "bookmark_text": [ 0, 0, 0 ],
+      "ntp_background": [ 0, 0, 0 ],
+      "ntp_text": [ 0, 0, 0 ],
+      "ntp_link": [ 0, 0, 0 ],
+      "button_background": [ "{BUTTON_BACKGROUND}" ]
+    },
+    "tints": {
+      "buttons": [ 0.46, 0.72, 0.6 ],
+      "background_tab": [ 0.46, 0.72, 0.6 ]
+    },
+    "properties": {
+      "ntp_background_alignment": "top left",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
